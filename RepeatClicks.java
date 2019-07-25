@@ -20,7 +20,7 @@ public class RepeatClicks
 	public static void klick (int x , int y)
 	{
 		robot.mouseMove(x, y);
-		robot.delay(100); //100 is the delay time, unknown unit.
+		robot.delay(100); //100 is the delay time, units in ms.
 		robot.mousePress(MouseEvent.BUTTON1_MASK);
 		robot.mouseRelease(MouseEvent.BUTTON1_MASK);
 	}
